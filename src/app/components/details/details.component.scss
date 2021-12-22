@@ -5,10 +5,6 @@
   }
   
   .details {
-    ::ng-deep .mat-tab-labels {
-      justify-content: center;
-    }
-  
     ::ng-deep mwl-gauge {
       width: 150px;
       height: 150px;
@@ -82,3 +78,4 @@
       }
     }
   }
+  
