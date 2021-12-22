@@ -19,12 +19,16 @@ import { HomeComponent } from './components/home/home.component';
 import { HttpHeadersInterceptor } from './interceptors/src/app/interceptors/http-headers.interceptor';
 import { HttpParamsInterceptor } from './interceptors/src/app/interceptors/http.params.interceptor';
 import { HttpErrorsInterceptor } from './interceptors/src/app/interceptors/http-errors.interceptor';
+import { DetailsComponent } from './components/details/details.component';
+import { GameTabsComponent } from './components/game-tabs/game-tabs.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchBarComponent,
-    HomeComponent
+    HomeComponent,
+    DetailsComponent,
+    GameTabsComponent
   ],
   imports: [
     BrowserModule,
